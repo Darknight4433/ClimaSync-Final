@@ -41,18 +41,3 @@
 
 ---
 
-## 🚀 Deployment Architecture
-
-```plaintext
-[Sensor Array]
-     |
-     | (Python Script - Sensor Readings)
-     ↓
-[Raspberry Pi GPIO]
-     |
-     | (HTTP POST / GET)
-     ↓
-[PHP Endpoint on Replit Server]
-     |
-     ↓
-[ClimaSync Web Dashboard (HTML + JS)]
