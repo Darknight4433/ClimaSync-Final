@@ -12,7 +12,7 @@
 
 ## ⚙️ Key Features
 
-- 🌐 100% **Web-based** (no sensors or Raspberry Pi required)
+- 🌐 100% **Web-based** 
 - 🌡️ Real-time **Temperature**, **Humidity**, and **Weather Conditions**
 - 📡 Weather data fetched via **external public APIs**
 - 📊 Lightweight, fast-loading web app optimized for quick access
