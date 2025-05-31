@@ -1,4 +1,4 @@
-# 🌦️ ClimaSync – Real-Time Weather Monitoring System
+# 🌦️ ClimaSync – API-Powered Real-Time Weather Web App
 
 [![Live Deployment](https://img.shields.io/badge/Live--Site-Click%20Here-brightgreen)](https://78091d83-afc1-4d42-9657-b9862417acb7-00-1yo5rdr2tbgrj.pike.replit.dev)
 
@@ -6,38 +6,45 @@
 
 ## 🔍 Overview
 
-**ClimaSync** is an innovative IoT-powered platform designed to **monitor, display, and sync real-time environmental data** like temperature, humidity, and rainfall levels. It empowers communities, researchers, and local users to stay aware of changing weather conditions and share observations through a live dashboard interface.
+**ClimaSync** is an innovative, web-based platform that **fetches and displays real-time weather data** using public APIs. Built for awareness, education, and community insights, it offers a clean and responsive interface to monitor live environmental conditions directly from your browser—no hardware needed.
 
 ---
 
 ## ⚙️ Key Features
 
-- 🌡️ Real-time **Temperature & Humidity** data (via DHT11 & BMP180 sensors)
-- 🌧️ **DIY Rain Gauge** data entry and visualization
-- 📡 **Live sensor syncing** via Raspberry Pi
-- 🖥️ Interactive Web Interface hosted on Replit
-- 🌐 Open-access: **No login required**
-- 🧠 Designed for Smart Cities and Rural Monitoring
+- 🌐 100% **Web-based** (no sensors or Raspberry Pi required)
+- 🌡️ Real-time **Temperature**, **Humidity**, and **Weather Conditions**
+- 📡 Weather data fetched via **external public APIs**
+- 📊 Lightweight, fast-loading web app optimized for quick access
+- 🖥️ Hosted on **Replit** – accessible anywhere
 
 ---
 
 ## 🧑‍💻 Live Deployment
 
-**Check out ClimaSync in action here** 👉  
+**See it in action here**:  
 🔗 [https://78091d83-afc1-4d42-9657-b9862417acb7-00-1yo5rdr2tbgrj.pike.replit.dev](https://78091d83-afc1-4d42-9657-b9862417acb7-00-1yo5rdr2tbgrj.pike.replit.dev)
 
 ---
 
 ## 🏗️ Tech Stack
 
-| Component | Technology |
-|----------|------------|
-| Hardware | Raspberry Pi 4, BMP180, DHT11, DIY Rain Gauge |
-| Language | Python (sensor scripts), HTML, CSS, JS, PHP |
-| Hosting  | Replit Web Server |
-| Frontend | Static HTML + JS |
-| Backend  | PHP (for handling sensor data uploads) |
-| Data Flow | Python → PHP Endpoint → Live Web Display |
+| Layer        | Technology Used              |
+|--------------|------------------------------|
+| Frontend     | HTML, CSS, JavaScript        |
+| API Service  | OpenWeatherMap / WeatherAPI  |
+| Hosting      | Replit Web Server            |
+| Tools Used   | Fetch API, DOM Manipulation  |
 
 ---
 
+## 🌐 How It Works
+
+```plaintext
+[User Enters Location]
+         ↓
+[Fetch Weather Data from API]
+         ↓
+[Parse and Display Data on Web Page]
+         ↓
+[Live Dashboard for Temperature, Humidity, Conditions etc...]
