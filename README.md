@@ -6,12 +6,10 @@
 
 ## 🔍 Overview
 
-**ClimaSync** is an innovative, web-based platform that **fetches and displays real-time weather data** using public APIs. Built for awareness, education, and community insights, it offers a clean and responsive interface to monitor live environmental conditions directly from your browser—no hardware needed.
+**ClimaSync** is an innovative, web-based platform that **fetches and displays real-time weather data** using public APIs. Built for awareness, education, and community insights, it offers a clean and responsive interface to monitor live environmental conditions directly from your browser—no hardware needed. since ClimaSync has't been deployed yet it is needed to make a request before the use of our site pls cooporate 😊
 
----
 
-## ⚙️ Key Features
-
+# ⚙️ Key Features
 - 🌐 100% **Web-based** 
 - 🌡️ Real-time **Temperature**, **Humidity**, and **Weather Conditions**
 - 📡 Weather data fetched via **external public APIs**
